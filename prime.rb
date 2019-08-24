@@ -1,5 +1,5 @@
 def prime?(integer)
-  p = integer
+  p = [ ]
   if (p - 1)! = -1
     return true
   else
