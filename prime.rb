@@ -1,6 +1,8 @@
 def prime?(integer)
   p = integer
   if (p - 1)! = -1
-    then true
+    true
+  else
+    false
 end
 end
