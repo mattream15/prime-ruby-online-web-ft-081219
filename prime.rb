@@ -7,14 +7,16 @@ def prime?(integer)
 end
 end
 
- function is_prime(n)
-     if n ≤ 3
-        return n > 1
-     else if n mod 2 = 0 or n mod 3 = 0
+ def prime?(integer)
+     if integer <= 3
+        return integer > 1
+     elsif integer mod 2 = 0 or integer mod 3 = 0
         return false
-     let i ← 5
-     while i * i ≤ n
-        if n mod i = 0 or n mod (i + 2) = 0
+     let integer = 5
+     while integer * integer ≤ integer
+        if integer mod i = 0 or n mod (i + 2) = 0
             return false
         i ← i + 6
      return true
+   end
+ end
